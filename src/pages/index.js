@@ -14,7 +14,7 @@ export default function Home() {
     <div className={"min-h-screen  mx-auto"}>
       
       
-      <main className="bg-main-section-sky bg-opacity-10 relative z-30 bg-no-repeat bg-cover text-transparent min-h-[879px]">
+      <main className="bg-main-section-sky bg-opacity-10 relative h-screen z-30 bg-no-repeat bg-cover text-transparent min-h-[879px]">
       <Header />
         <div className="container mx-auto mt-[60px] z-50">
           <motion.h1             
@@ -29,14 +29,14 @@ export default function Home() {
             animate={{ opacity: 100, translateY: "0px" }}
             transition={{ duration: 0.7 }}
             className="text-white tenor-sans-regular my-[30px] text-[20px] max-w-[914px]">
-          Страна Шелкового пути, древней сети торговых маршрутов, была местом культурного обмена и глубоких знаний. Опираясь на богатое историческое наследие Узбекистана и стремление к инновациям, в 2018 году в самом сердце Центральной Азии было создано современное предприятие, целью которого является использование экологически чистых, натуральных местных природных богатств — цветов, листьев, кожуры, семян, корней дикорастущих лекарственных растений, фруктов и овощей
+                Страна Шелкового пути, древней сети торговых маршрутов, была местом культурного обмена и глубоких знаний. Опираясь на богатое историческое наследие Узбекистана и стремление к инновациям, в 2018 году в самом сердце Центральной Азии было создано современное предприятие, целью которого является использование экологически чистых, натуральных местных природных богатств — цветов, листьев, кожуры, семян, корней дикорастущих лекарственных растений, фруктов и овощей
           </motion.p>
 
           <motion.div 
                         initial={{ opacity: 0, translateX: "-100px" }}
                         animate={{ opacity: 100, translateX: "0px" }}
                         transition={{ duration: 0.7 }}
-          className={"flex gap-x-4"}>
+          className={"flex gap-x-[30px]"}>
             <Button>
               <p>Связаться с нами</p>
             </Button>
