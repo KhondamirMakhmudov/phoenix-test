@@ -6,7 +6,7 @@ import React from "react";
 
 const Cards = ({image, title, classnames }) => {
     return (
-        <div className="col-span-4 flex flex-col justify-between gap-x-4 p-4 bg-no-repeat bg-cover w-[395px]  h-[324px]  rounded-[9px]" style={{ backgroundImage: `url(${image})` }}>
+        <div className="col-span-4 flex flex-col justify-between gap-x-4 p-6 bg-no-repeat bg-cover w-[395px]  h-[324px]  rounded-[9px]" style={{ backgroundImage: `url(${image})` }}>
             <h3 className="text-[27px] text-white">
                 {title}
             </h3>

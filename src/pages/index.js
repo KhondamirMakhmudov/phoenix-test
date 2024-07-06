@@ -14,7 +14,7 @@ export default function Home() {
     <div className={"min-h-screen  mx-auto"}>
       
       
-      <main className="bg-main-section-sky bg-opacity-10 relative h-screen z-30 bg-no-repeat bg-cover text-transparent min-h-[879px]">
+      <main className="bg-main-section-sky bg-opacity-10 relative z-30 bg-no-repeat bg-cover text-transparent min-h-[879px]">
       <Header />
         <div className="container mx-auto mt-[60px] z-50">
           <motion.h1             
@@ -52,8 +52,8 @@ export default function Home() {
         <div className=" absolute  bottom-0 -z-10 bg-linear-main-bottom w-full min-h-[152px] bg-no-repeat bg-cover"></div>
       </main>
 
-      <section className="bg-second-section tenor-sans-regular h-screen bg-no-repeat bg-cover">
-          <div className="container mx-auto pt-[80px]">
+      <section className="bg-second-section tenor-sans-regular py-[80px] bg-no-repeat bg-cover">
+          <div className="container mx-auto ">
             <h1 className={" text-[48px]"}>
               Полезные статьи
             </h1>
