@@ -34,13 +34,15 @@ const Menu = () => {
             
                 {menuData.map((item) => 
                 <ul key={get(item, "id")} className=''>
-                    <li className="text-white menu-item cursor-pointer">
+                    <li className="text-white text-[18px] font-bold menu-item cursor-pointer">
                         {get(item, "title")}
                     </li>
                     
                 </ul> )}
-            <Search/>
-            <LanguageSelectButton/>
+            <div className='flex items-center'>
+                <Search/>
+                <LanguageSelectButton/>
+            </div>
         </nav>
     )
 }

@@ -64,3 +64,12 @@ body {
   font-family: "Roboto", sans-serif;
 
 }
+
+.bg-linear-main {
+  background: linear-gradient(1.71deg, rgba(11, 29, 38, 0) 15.49%, rgba(41, 77, 95, 0.844437) 107.95%, #2F566A 133.88%);
+
+}
+
+.bg-linear-main-bottom {
+  background: linear-gradient(180deg, rgba(60, 60, 60, 0) 10%, #FFFFFF 70.61%);
+}

@@ -6,7 +6,7 @@ const LanguageSelectButton = () => {
 
   const handleChange = (event) => {
     setSelectedLanguage(event.target.value);
-    setIsOpen(false); // Close dropdown when an option is selected
+    setIsOpen(false);
   };
 
   const toggleDropdown = () => {
@@ -14,12 +14,12 @@ const LanguageSelectButton = () => {
   };
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block text-left text-lg font-bold">
       <div>
         <button
           type="button"
           onClick={toggleDropdown}
-          className="inline-flex justify-between items-center w-full rounded-md  px-4 py-2 bg-transparent text-sm font-medium text-white  focus:outline-none "
+          className="inline-flex text-lg font-bold justify-between items-center w-full rounded-md  px-4 py-2 bg-transparent  text-white  focus:outline-none "
         >
           {selectedLanguage}
           <svg
@@ -43,12 +43,12 @@ const LanguageSelectButton = () => {
         <select
           value={selectedLanguage}
           onChange={handleChange}
-          className="absolute w-full mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="absolute w-full mt-2 text-lg font-bold rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           size={3} 
         >
-          <option value="Py" className="text-gray-700 hover:bg-gray-100">Py</option>
-          <option value="En" className="text-gray-700 hover:bg-gray-100">En</option>
-          <option value="Uz" className="text-gray-700 hover:bg-gray-100">Uz</option>
+          <option value="Py" className="text-gray-700 text-lg font-bold hover:bg-gray-100">Py</option>
+          <option value="En" className="text-gray-700 text-lg font-bold hover:bg-gray-100">En</option>
+          <option value="Uz" className="text-gray-700 text-lg font-bold hover:bg-gray-100">Uz</option>
         </select>
       )}
     </div>
